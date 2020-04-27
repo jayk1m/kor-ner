@@ -1,0 +1,35 @@
+Notable comments
+• To be precise, my HMM model tags on the Korean morphemes. This means one has to transform a given Korean sentence into morphemes first before applying the Viterbi function. The following code block sheds light on how such transformation can be done via KoNLPy, which is a preexisting Python library.
+
+```
+import konlpy
+import itertools
+
+ha = konlpy.tag.Hannanum()
+kk = konlpy.tag.Kkma()
+ko = konlpy.tag.Komoran()
+ok = konlpy.tag.Okt()
+
+t1 = ha.morphs("한편, AFC챔피언스리그 E조에 속한 포항 역시 대회 8강 진출이 불투명하다 .")
+t2 = kk.morphs("한편, AFC챔피언스리그 E조에 속한 포항 역시 대회 8강 진출이 불투명하다 .")
+t3 = ko.morphs("한편, AFC챔피언스리그 E조에 속한 포항 역시 대회 8강 진출이 불투명하다 .")
+t4 = ok.morphs("한편, AFC챔피언스리그 E조에 속한 포항 역시 대회 8강 진출이 불투명하다 .")
+
+list(itertools.zip_longest(t1, t2, t3, t4))
+```
+
+• The csv files are stored (precomputed) matrices comprising starting, emission, and transition probabilities.
+
+• The scoring function has been taken from HW #4.
+
+• Results:
+
+Number of unique words in training data: 12142
+NER tags in training data: ['DT', 'LC', 'O', 'OG', 'PS', 'TI']
+
+---- NER tagging using Hidden Markov Model and Viterbi ----
+-- Successfully exported to HMM_test.data --
+---- Took 3.2434887886047363 seconds ----
+
+18819 out of 21451 tags correct
+  accuracy: 87.730176
