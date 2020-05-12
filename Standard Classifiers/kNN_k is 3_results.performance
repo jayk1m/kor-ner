@@ -1,0 +1,30 @@
+12.05.2020 01:32:41 Results of ResultWriter 'kNN_k is 3' [1]: 
+12.05.2020 01:32:41 PerformanceVector:
+accuracy: 85.37%
+ConfusionMatrix:
+True:	O	OG	DT	PS	LC	TI
+O:	16531	1215	584	239	186	30
+OG:	427	540	4	11	72	0
+DT:	201	17	847	4	6	11
+PS:	16	10	0	85	4	0
+LC:	28	48	0	0	198	0
+TI:	16	1	0	0	2	75
+weighted_mean_recall: 52.76%, weights: 1, 1, 1, 1, 1, 1
+ConfusionMatrix:
+True:	O	OG	DT	PS	LC	TI
+O:	16531	1215	584	239	186	30
+OG:	427	540	4	11	72	0
+DT:	201	17	847	4	6	11
+PS:	16	10	0	85	4	0
+LC:	28	48	0	0	198	0
+TI:	16	1	0	0	2	75
+weighted_mean_precision: 73.87%, weights: 1, 1, 1, 1, 1, 1
+ConfusionMatrix:
+True:	O	OG	DT	PS	LC	TI
+O:	16531	1215	584	239	186	30
+OG:	427	540	4	11	72	0
+DT:	201	17	847	4	6	11
+PS:	16	10	0	85	4	0
+LC:	28	48	0	0	198	0
+TI:	16	1	0	0	2	75
+

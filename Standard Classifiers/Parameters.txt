@@ -1,0 +1,12 @@
+Notes on Parameters
+• kNN
+1. The Euclidean distance has been used for metric purposes.
+2. For nominal values, a distance of 0 has been taken if two neighbors share the same nominal value while a distance of 1 has been taken otherwise.
+
+• Decision Tree
+1. Information gain has been used as the criterion for splitting the tree.
+2. Maximal depth of 5 has been used as a parameter.
+
+• Random Forest
+1. Total number of trees of 40 was taken.
+2. Information gain has been used as the criterion for splitting a tree.

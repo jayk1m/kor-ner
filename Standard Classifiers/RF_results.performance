@@ -1,0 +1,30 @@
+12.05.2020 04:10:07 Results of ResultWriter 'RF' [1]: 
+12.05.2020 04:10:07 PerformanceVector:
+accuracy: 82.18%
+ConfusionMatrix:
+True:	O	OG	DT	PS	LC	TI
+O:	17049	1433	1327	291	203	116
+OG:	126	248	29	5	9	0
+DT:	12	0	76	0	0	0
+PS:	8	51	2	38	73	0
+LC:	24	99	1	5	183	0
+TI:	0	0	0	0	0	0
+weighted_mean_recall: 28.03%, weights: 1, 1, 1, 1, 1, 1
+ConfusionMatrix:
+True:	O	OG	DT	PS	LC	TI
+O:	17049	1433	1327	291	203	116
+OG:	126	248	29	5	9	0
+DT:	12	0	76	0	0	0
+PS:	8	51	2	38	73	0
+LC:	24	99	1	5	183	0
+TI:	0	0	0	0	0	0
+weighted_mean_precision: 51.68%, weights: 1, 1, 1, 1, 1, 1
+ConfusionMatrix:
+True:	O	OG	DT	PS	LC	TI
+O:	17049	1433	1327	291	203	116
+OG:	126	248	29	5	9	0
+DT:	12	0	76	0	0	0
+PS:	8	51	2	38	73	0
+LC:	24	99	1	5	183	0
+TI:	0	0	0	0	0	0
+
