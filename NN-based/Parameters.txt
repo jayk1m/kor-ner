@@ -1,0 +1,12 @@
+Notes on Parameters
+• Deep Learning_30k
+1. 30k parameters have been trained over 200 epochs.
+2. Batch training, updater of Adam, learning rate of 0.01, Xavier weight initialization, standard SGD, and regularization have been used.
+3. Multiclass cross entropy loss has been used as the loss function.
+
+• Deep Learning_Conv
+1. 25k parameters have been trained over 200 epochs.
+2. Batch training, updater of AdaDelta, Xavier weight initialization, and standard SGD have been used.
+3. Three-by-three convolution filters have been used as well as ReLU.
+4. Two fully connected layers have been used before the output layer.
+5. Multiclass cross entropy loss has been used as the loss function.

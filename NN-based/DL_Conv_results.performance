@@ -1,0 +1,30 @@
+12.05.2020 17:52:50 Results of ResultWriter 'DL' [1]: 
+12.05.2020 17:52:50 PerformanceVector:
+accuracy: 85.26%
+ConfusionMatrix:
+True:	O	OG	DT	PS	LC	TI
+O:	17060	1619	460	307	366	54
+OG:	29	145	0	5	19	0
+DT:	100	15	964	2	7	22
+PS:	6	47	0	25	53	0
+LC:	0	5	0	0	19	0
+TI:	24	0	11	0	4	40
+weighted_mean_recall: 36.68%, weights: 1, 1, 1, 1, 1, 1
+ConfusionMatrix:
+True:	O	OG	DT	PS	LC	TI
+O:	17060	1619	460	307	366	54
+OG:	29	145	0	5	19	0
+DT:	100	15	964	2	7	22
+PS:	6	47	0	25	53	0
+LC:	0	5	0	0	19	0
+TI:	24	0	11	0	4	40
+weighted_mean_precision: 65.81%, weights: 1, 1, 1, 1, 1, 1
+ConfusionMatrix:
+True:	O	OG	DT	PS	LC	TI
+O:	17060	1619	460	307	366	54
+OG:	29	145	0	5	19	0
+DT:	100	15	964	2	7	22
+PS:	6	47	0	25	53	0
+LC:	0	5	0	0	19	0
+TI:	24	0	11	0	4	40
+
